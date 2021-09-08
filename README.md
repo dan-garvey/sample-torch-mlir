@@ -7,7 +7,7 @@ sigmoid | torch.sigmoid | complete
 mul | torch.mul | complete
 add | torch.add | complete
 sum | torch.sum | complete
-argmax | torch.argmax | complete
+argmax | torch.argmax | in-progress
 broadcast | torch.broadcast_to | torch_ods_gen
 concat | torch.cat | RefineTypes
 argmin | torch.argmin | torch_ods_gen
