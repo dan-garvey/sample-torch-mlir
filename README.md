@@ -10,7 +10,7 @@ sum | torch.sum | complete
 argmax | torch.argmax | in-progress
 concat | torch.cat | in-progress
 transpose | torch.transpose | in-progress
+gather | torch.gather | in-progress
 argmin | torch.argmin | torch_ods_gen
-gather | torch.gather | RefineTypes
 layernorm | torch.layernorm | torch_ods_gen
 broadcast | torch.broadcast_to | torch_ods_gen
