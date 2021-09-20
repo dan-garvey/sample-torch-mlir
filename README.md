@@ -7,10 +7,11 @@ sigmoid | torch.sigmoid | complete
 mul | torch.mul | complete
 add | torch.add | complete
 sum | torch.sum | complete
-argmax | torch.argmax | in-progress
+argmax | torch.argmax | in-review
+transpose | torch.transpose | in-review
 concat | torch.cat | in-progress
-transpose | torch.transpose | in-progress
 gather | torch.gather | in-progress
-argmin | torch.argmin | torch_ods_gen
+argmin | torch.argmin | in-progress
+broadcast | torch.broadcast_to | in-prgoress
 layernorm | torch.layernorm | torch_ods_gen
-broadcast | torch.broadcast_to | torch_ods_gen
+
