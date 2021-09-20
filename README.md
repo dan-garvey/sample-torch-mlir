@@ -19,6 +19,7 @@ layernorm | torch.layernorm | torch_ods_gen
 
 #Model Status
 Model | status
+------------- | -------------
 Ressnet | Done
 Bert | in-progress
 MASK-RCNN | untested
