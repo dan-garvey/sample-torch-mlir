@@ -18,14 +18,9 @@ layernorm | torch.layernorm | torch_ods_gen
 
 
 #Model Status
-Model | status
-------------- | -------------
-Ressnet | Done
-Bert | in-progress
-MASK-RCNN | untested
 
 Model | Status
 ------------- | -------------
-tanh | torch.tanh
-relu | torch.relu
-sigmoid | torch.sigmoid
+Resnet | Done
+Bert | in-progress
+MASK-RCNN | untested
