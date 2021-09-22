@@ -2,7 +2,7 @@ DEBUG: Initial PyTorch object graph IR:
 builtin.module  {
   builtin.func private @__torch__.TestModule.forward(%arg0: !torch.nn.Module<"__torch__.TestModule">, %arg1: !torch.tensor {torch.type_bound = !torch.vtensor<[2,3,?],f32>}) -> !torch.tensor {
     %none_0 = torch.constant.none
-    %1 = torch.operator "aten.sum"(%arg1, %none_0) : (!torch.tensor, !torch.none) -> !torch.tensor
+    %1 = torch.aten.sum %arg1, %none_0 : !torch.tensor, !torch.none -> !torch.tensor
     return %1 : !torch.tensor
   }
   torch.class_type @__torch__.TestModule  {
