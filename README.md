@@ -9,11 +9,11 @@ add | torch.add | complete
 sum | torch.sum | complete
 argmax | torch.argmax | in-review
 transpose | torch.transpose | in-review
-concat | torch.cat | in-progress
-gather | torch.gather | in-progress
+concat | torch.cat | complete
+gather | torch.gather | complete
 argmin | torch.argmin | in-progress
 broadcast | torch.broadcast_to | in-prgoress
-layernorm | torch.layernorm | torch_ods_gen
+layernorm | torch.layernorm | in-prgoress
 
 
 
