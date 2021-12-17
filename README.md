@@ -11,9 +11,9 @@ argmax | torch.argmax | in-review
 transpose | torch.transpose | in-review
 concat | torch.cat | complete
 gather | torch.gather | complete
-argmin | torch.argmin | in-progress
-broadcast | torch.broadcast_to | in-prgoress
-layernorm | torch.layernorm | in-prgoress
+argmin | torch.argmin | complete
+broadcast | torch.broadcast_to | complete
+layernorm | torch.layernorm | complete
 
 
 
