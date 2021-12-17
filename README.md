@@ -7,8 +7,8 @@ sigmoid | torch.sigmoid | complete
 mul | torch.mul | complete
 add | torch.add | complete
 sum | torch.sum | complete
-argmax | torch.argmax | in-review
-transpose | torch.transpose | in-review
+argmax | torch.argmax | complete
+transpose | torch.transpose | complete
 concat | torch.cat | complete
 gather | torch.gather | complete
 argmin | torch.argmin | complete
